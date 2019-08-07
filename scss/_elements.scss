@@ -37,10 +37,10 @@ select {
 	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 	border-radius: none;
 	border:none;
-	border-bottom: 1px solid #4b5562;
+	border-bottom: 1px solid #c9ccd0;
 	width: 100%;
-	margin-bottom: 20px;
-	padding: 10px 0;
+	margin-bottom: 27px;
+	padding: 0 0 17px;
 	color: #4b5562;
 	&:focus{
 		outline:none;
@@ -50,4 +50,5 @@ select {
 
 textarea {
 resize: none;
+margin-bottom: 20px;
 }
